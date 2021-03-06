@@ -20,3 +20,16 @@ I learned to use C# to build a complete application from start to finish.  Using
 - Emailing from C#
 - Custom Events
 - Advanced Debugging
+
+## Big Picture Design
+- Structure: Windows Forms application and Class Library
+- Data: SQL and/or Text File
+- Users: One at a time on one application
+
+## Data Design
+- Team: TeamMembers(List<Persion>); TeamName(string)
+- Person: FirstName(string); LastName(string); EmailAddress(string); CellphoneNumber(string)
+- MatchupEntry: TeamCompeting(Team); Score(double); ParentMatchup(Matchup)
+- Matchup: Entries(List<MatchupEntry>); Winner(Team); MatchupRound(int)
+- Tournament: TournementName(string); EntryFee(decimal); EnteredTeams(List<Team>); Prizes(List<Prize>); Rounds(List<List<Matchup>>)
+- Prize: PlaceNumber(int); PlaceName(string); PrizeAmount(decimal); PrizePercentage(double)
