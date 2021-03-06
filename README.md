@@ -38,3 +38,6 @@ I learned to use C# to build a complete application from start to finish.  Using
 - Solution: TournamentTracker
 - Class Library: TrackerLibrary
 - Windows Form Application: TrackerUI
+
+## Tournament Dashboard (launch view)
+![image](https://user-images.githubusercontent.com/29477330/110214221-78922e80-7e58-11eb-82a0-56e709f15900.png)
