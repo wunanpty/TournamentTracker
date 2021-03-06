@@ -43,3 +43,5 @@ I learned to use C# to build a complete application from start to finish.  Using
 ![image](https://user-images.githubusercontent.com/29477330/110214221-78922e80-7e58-11eb-82a0-56e709f15900.png)
 ## Create Tournament
 ![image](https://user-images.githubusercontent.com/29477330/110214276-b42cf880-7e58-11eb-8e90-1531693dbac7.png)
+## Create Team
+![image](https://user-images.githubusercontent.com/29477330/110214489-a0ce5d00-7e59-11eb-8aa3-580becd73e47.png)
