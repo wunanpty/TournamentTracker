@@ -57,3 +57,10 @@ I learned to use C# to build a complete application from start to finish.  Using
   - crate interface IDataConnection, let data sources all follow this interface contract 
   - IDataConnection screenshot
   - ![image](https://user-images.githubusercontent.com/29477330/110215511-10931680-7e5f-11eb-9bea-1c95ff070c75.png)
+
+## Emailing Users
+- Where to put send email logic?
+  - Put it in TournamentLogic and in UpdateTournamentResults, because in here we update matchup and moving people to the next round, and maybe complete a round
+- Library: System.Net.Mail
+- Configure system.net and mailingSettings in App.config
+- Use papercut tool to test email sending
