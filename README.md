@@ -48,3 +48,10 @@ I learned to use C# to build a complete application from start to finish.  Using
 ## Create Prize
 ![image](https://user-images.githubusercontent.com/29477330/110214591-24884980-7e5a-11eb-9c32-7e0c8a68f4d3.png)
 
+## Data Access
+- How do we get that connection information?
+  - create static class GlobalConfig to store const string, connectionStrings and initialize connections
+  - GlobalConfig screenshot
+- How do we connect two different data sources to do the same task?
+  - crate interface IDataConnection, let data sources all follow this interface contract 
+  - IDataConnection screenshot
