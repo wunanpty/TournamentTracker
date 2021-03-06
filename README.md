@@ -33,3 +33,8 @@ I learned to use C# to build a complete application from start to finish.  Using
 - Matchup: Entries(List<MatchupEntry>); Winner(Team); MatchupRound(int)
 - Tournament: TournementName(string); EntryFee(decimal); EnteredTeams(List<Team>); Prizes(List<Prize>); Rounds(List<List<Matchup>>)
 - Prize: PlaceNumber(int); PlaceName(string); PrizeAmount(decimal); PrizePercentage(double)
+
+## Multi-project solution
+- Solution: TournamentTracker
+- Class Library: TrackerLibrary
+- Windows Form Application: TrackerUI
