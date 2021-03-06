@@ -38,3 +38,21 @@ I learned to use C# to build a complete application from start to finish.  Using
 - Solution: TournamentTracker
 - Class Library: TrackerLibrary
 - Windows Form Application: TrackerUI
+
+## Tournament Dashboard (launch view)
+![image](https://user-images.githubusercontent.com/29477330/110214221-78922e80-7e58-11eb-82a0-56e709f15900.png)
+## Create Tournament
+![image](https://user-images.githubusercontent.com/29477330/110214276-b42cf880-7e58-11eb-8e90-1531693dbac7.png)
+## Create Team
+![image](https://user-images.githubusercontent.com/29477330/110214489-a0ce5d00-7e59-11eb-8aa3-580becd73e47.png)
+## Create Prize
+![image](https://user-images.githubusercontent.com/29477330/110214591-24884980-7e5a-11eb-9c32-7e0c8a68f4d3.png)
+
+## Data Access
+- How do we get that connection information?
+  - create static class GlobalConfig to store const string, connectionStrings and initialize connections
+  - GlobalConfig screenshot
+  - ![image](https://user-images.githubusercontent.com/29477330/110215442-b5f9ba80-7e5e-11eb-8b7b-77f970e882ad.png)
+- How do we connect two different data sources to do the same task?
+  - crate interface IDataConnection, let data sources all follow this interface contract 
+  - IDataConnection screenshot
