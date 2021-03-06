@@ -45,3 +45,6 @@ I learned to use C# to build a complete application from start to finish.  Using
 ![image](https://user-images.githubusercontent.com/29477330/110214276-b42cf880-7e58-11eb-8e90-1531693dbac7.png)
 ## Create Team
 ![image](https://user-images.githubusercontent.com/29477330/110214489-a0ce5d00-7e59-11eb-8aa3-580becd73e47.png)
+## Create Prize
+![image](https://user-images.githubusercontent.com/29477330/110214591-24884980-7e5a-11eb-9c32-7e0c8a68f4d3.png)
+
