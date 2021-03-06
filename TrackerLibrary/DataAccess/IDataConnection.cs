@@ -8,7 +8,6 @@ namespace TrackerLibrary.DataAccess
 {
     public interface IDataConnection
     {
-        //refactoring: not return model, change to void
         void CreatePrize(PrizeModel model);
         void CreatePerson(PersonModel model);
         void CreateTeam(TeamModel model);
