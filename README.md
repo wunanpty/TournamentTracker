@@ -54,7 +54,7 @@ I learned to use C# to build a complete application from start to finish.  Using
   - GlobalConfig screenshot
   - ![image](https://user-images.githubusercontent.com/29477330/110215442-b5f9ba80-7e5e-11eb-8b7b-77f970e882ad.png)
 - How do we connect two different data sources to do the same task?
-  - crate interface IDataConnection, let data sources all follow this interface contract 
+  - create interface IDataConnection, let data sources all follow this interface contract 
   - IDataConnection screenshot
   - ![image](https://user-images.githubusercontent.com/29477330/110215511-10931680-7e5f-11eb-9bea-1c95ff070c75.png)
 
